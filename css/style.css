@@ -1,0 +1,175 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: white;
+}
+
+.container{
+	max-width: 1200px;
+	margin: auto;
+}
+
+h1, h2, h4, nav {
+	text-transform: uppercase;
+}
+.imagenes img{
+	width: 377px;
+	display: inline-block;
+	margin: 10px;	
+}
+.imagenes{
+	display:inline-block;
+}
+.principal{
+	text-align: center;
+	padding: 30px 0px;
+}
+.red-social span{
+	border: 2px solid white;
+    width: 37px;
+    height: 25px;
+    border-radius: 50%;
+	padding-top: 10px;
+}
+.contactme{
+	padding: 30px 0px;
+}
+.textoPrincipal, .contactme{
+	text-transform: uppercase;
+	color: #2C3E50;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.cabecera{
+	background-color: #2A4050;
+	padding: 30px 40px;
+}
+.cabecera label{
+	display: inline-block;
+}
+nav.cabecera ul {
+	display: inline-block;	
+	float: right;
+}
+nav.cabecera ul li{
+	display: inline-block;
+	margin-right: 30px;	
+	float: right;
+}
+.principal, .sobre-mi {
+	background-color: #18BB9C;
+}
+.sobre-mi article {	
+	width: 48%;
+	display: inline-block;	
+	text-align: left;
+}
+.sobre-mi{
+	text-align: center;
+	padding: 30px 0px;
+}
+.redes{
+	text-align: center;
+	background-color: #2D3E4E;
+	padding: 20px 0px;
+}
+.copyright{
+	text-align: center;
+	background-color: #233040;
+	padding: 20px 0px;
+}
+.div_imagnes{
+	background-color: #FEFFFE;
+	margin: auto;
+	text-align: center;
+}
+
+.redes article{
+	display: inline-block;
+	margin: 0px 20px;
+}
+h1{
+	font-size: 35px;
+	margin-top: 20px;
+}
+.separador hr{
+	display: inline-block;
+	border: solid;
+	width: 6%;
+	margin: 3px 8px;
+}
+.separador{
+	margin:10px 0px;
+}
+
+h3{
+	font-size: 20px;
+}
+h2{
+	font-size: 30px;
+}
+
+.sobre-mi .container {
+	width: 500px;
+}
+.contactme .container {
+	text-align: left;
+	width: 500px;
+}
+
+.redes h4{
+	font-size: 20px;
+	padding:20px 0px;
+}
+.cajas{
+	border-top: 1px solid #ECECEC;
+}
+div.cajas input {
+	padding: 0px;
+	width: 100%;
+	display: block;
+	border: 0px solid;
+	height: 50px;
+}
+div.cajas textarea{
+	padding: 0px;
+	width: 100%;
+	height: 70px;
+	border: 0px solid;
+	display: block;
+}
+
+.send{
+	background-color: #00BD9D;
+	text-align: center;
+	width: 65px;
+	height: 40px;
+	border: 0px;
+	border-radius: 5px;
+	color: white;
+}
+
+@media screen and (max-width: 700px){
+	.nom-ap{
+		display: block;
+	}
+	nav.cabecera .container ul {
+    	display: block;
+    	float: left;
+    	padding: 10px 0px;
+	}
+	.sobre-mi article {	
+		width: 100%;
+		display: block;	
+		text-align: left;
+	}
+	.redes article{
+		display: block;
+		margin: 0px 20px;
+	}
+	.imagenes{
+		width:93%;
+	}
+
+}
